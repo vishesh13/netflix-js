@@ -1,10 +1,5 @@
-import { combineReducers } from 'redux';
-import oneState from './oneReducer';
+import netflixReducer from './netflixReducer';
 
-const combinedReducers = combineReducers({
-    oneState,
-});
+const rootReducer = netflixReducer;
 
-const rootReducers = combinedReducers;
-
-export default rootReducers;
+export default rootReducer;
