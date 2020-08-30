@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import OneApplication from './startup/OneApplication';
+import NetflixApplication from './startup/NetflixApplication';
 import './index.css';
 
 ReactDOM.render(
-  <OneApplication />,
+  <NetflixApplication />,
   document.getElementById('root')
 );

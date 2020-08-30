@@ -1,7 +1,7 @@
 export default {
-    oneState: {
+    movieDetailsState: {
+        details: [],
         isLoading: false,
-        isFailed: false,
-        shouldChange: false,
+        isFailed: false
     },
 };
